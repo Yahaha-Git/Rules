@@ -407,9 +407,9 @@ Rule:
 - IP-CIDR,45.64.20.0/22,BilibiliandACfun,no-resolve
 # > AcFun番剧地区验证
 # USER-AGENT,AcFun*,PROXY
-- DOMAIN-SUFFIX,acfun.cn,PROXY
-- DOMAIN-SUFFIX,acfun.com,PROXY
-- DOMAIN-SUFFIX,aixifan.com,PROXY
+- DOMAIN-SUFFIX,acfun.cn,BilibiliandACfun
+- DOMAIN-SUFFIX,acfun.com,BilibiliandACfun
+- DOMAIN-SUFFIX,aixifan.com,BilibiliandACfun
 # (ChinaMedia)
 # > HunanTV
 # USER-AGENT,MGTV*,PROXY
