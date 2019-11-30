@@ -1399,4 +1399,4 @@ Rule:
 # GeoIP China
 - GEOIP,CN,DIRECT
 
-- MATCH,Final
+- MATCH,Others
