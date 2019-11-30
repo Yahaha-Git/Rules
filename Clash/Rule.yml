@@ -446,6 +446,31 @@ Rule:
 - DOMAIN-SUFFIX,soku.com,ChinaMedia
 - DOMAIN-SUFFIX,youku.com,ChinaMedia
 - DOMAIN-SUFFIX,ykimg.com,ChinaMedia
+# (ChinaMusic)
+# > Alibaba
+# USER-AGENT,walkman*,PROXY
+# USER-AGENT,xiami*,PROXY
+- DOMAIN-SUFFIX,xiami.com,ChinaMusic
+- DOMAIN-SUFFIX,xiami.net,ChinaMusic
+# > Netease
+# USER-AGENT,NeteaseMusic*,PROXY
+# USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,PROXY
+- DOMAIN-SUFFIX,music.126.net,ChinaMusic
+- DOMAIN-SUFFIX,music.163.com,ChinaMusic
+# > Tencent
+# USER-AGENT,MOO%E9%9F%B3%E4%B9%90*,PROXY
+# USER-AGENT,QQ%E9%9F%B3%E4%B9%90,PROXY
+- DOMAIN-SUFFIX,qqmusic.qq.com,ChinaMusic
+- DOMAIN-SUFFIX,y.qq.com,ChinaMusic
+- DOMAIN,aqqmusic.tc.qq.com,ChinaMusic
+# Kugou and Kuwo
+- DOMAIN-SUFFIX,kugou.com,ChinaMusic
+# USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*,PROXY
+- DOMAIN-SUFFIX,kuwo.cn,ChinaMusic
+- DOMAIN-SUFFIX,koowo.com,ChinaMusic
+# > Baidu
+# USER-AGENT,baiduyinyue,PROXY
+- DOMAIN-SUFFIX,qianqian.com,ChinaMusic
 # (DNS Cache Pollution Protection)
 # > Google
 - DOMAIN-SUFFIX,appspot.com,PROXY
