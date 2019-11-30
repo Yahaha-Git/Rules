@@ -401,9 +401,13 @@ Rule:
 # > 愛奇藝台灣站
 - DOMAIN-SUFFIX,iqiyi.com,HKMTMedia
 - DOMAIN-SUFFIX,71.am,HKMTMedia
-# > bilibili
-- DOMAIN-SUFFIX,bilibili.com,HKMTMedia
-- DOMAIN,upos-hz-mirrorakam.akamaized.net,HKMTMedia
+
+# (Bilibili)
+# > bilibili番剧验证
+- DOMAIN-SUFFIX,bilibili.com,Bilibili
+- DOMAIN,upos-hz-mirrorakam.akamaized.net,Bilibili
+- DOMAIN-SUFFIX,biligame.com,Bilibili
+- IP-CIDR,45.64.20.0/22,Bilibili,no-resolve
 
 # (DNS Cache Pollution Protection)
 # > Google
@@ -992,8 +996,6 @@ Rule:
 - DOMAIN-SUFFIX,bilibili.tv,DIRECT
 - DOMAIN-SUFFIX,hdslb.com,DIRECT
 - DOMAIN-SUFFIX,hdslb.com,DIRECT
-- DOMAIN-SUFFIX,biligame.com,HKMTMedia
-- IP-CIDR,45.64.20.0/22,HKMTMedia,no-resolve
 # > Blizzard
 - DOMAIN-SUFFIX,blizzard.com,DIRECT
 - DOMAIN-SUFFIX,battle.net,DIRECT
