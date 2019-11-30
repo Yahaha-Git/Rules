@@ -400,16 +400,52 @@ Rule:
 # > 愛奇藝台灣站
 - DOMAIN-SUFFIX,iqiyi.com,iQiyiTW
 - DOMAIN-SUFFIX,71.am,iQiyiTW
-# (Bilibili&AcFun)
+# (Bilibili-and-ACfun)
 # > Bilibili番剧地区验证
-- DOMAIN-SUFFIX,bilibili.com,Bilibili&AcFun
-- DOMAIN,upos-hz-mirrorakam.akamaized.net,Bilibili&AcFun
-- IP-CIDR,45.64.20.0/22,Bilibili&AcFun,no-resolve
+- DOMAIN-SUFFIX,bilibili.com,BilibiliandACfun
+- DOMAIN,upos-hz-mirrorakam.akamaized.net,BilibiliandACfun
+- IP-CIDR,45.64.20.0/22,BilibiliandACfun,no-resolve
 # > AcFun番剧地区验证
 # USER-AGENT,AcFun*,PROXY
 - DOMAIN-SUFFIX,acfun.cn,PROXY
 - DOMAIN-SUFFIX,acfun.com,PROXY
 - DOMAIN-SUFFIX,aixifan.com,PROXY
+# (ChinaMedia)
+# > HunanTV
+# USER-AGENT,MGTV*,PROXY
+- DOMAIN-SUFFIX,hitv.com,ChinaMedia
+- DOMAIN-SUFFIX,hunantv.com,ChinaMedia
+- DOMAIN-SUFFIX,mgtv.com,ChinaMedia
+# > Migu
+# USER-AGENT,MiguVideo*,PROXY
+# USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91,PROXY
+- DOMAIN-SUFFIX,cmvideo.cn,ChinaMedia
+- DOMAIN-SUFFIX,migu.cn,ChinaMedia
+- DOMAIN-SUFFIX,miguvideo.com,ChinaMedia
+# > iQiyi
+# USER-AGENT,iQiYiPhoneVideo,PROXY
+# USER-AGENT,PPStream,PROXY
+# USER-AGENT,QIYIVideo,PROXY
+# USER-AGENT,QYPlayer,PROXY
+- DOMAIN-SUFFIX,iqiyi.com,ChinaMedia
+- DOMAIN-SUFFIX,iqiyipic.com,ChinaMedia
+- DOMAIN-SUFFIX,qy.net,ChinaMedia
+# > Sohu
+- DOMAIN-SUFFIX,sohu.com,ChinaMedia
+- DOMAIN-SUFFIX,sohu.com.cn,ChinaMedia
+- DOMAIN-SUFFIX,itc.cn,ChinaMedia
+- DOMAIN-SUFFIX,v-56.com,ChinaMedia
+# > Tencent
+# USER-AGENT,live4iphone*,PROXY
+# USER-AGENT,qqlive4iphone*,PROXY
+# USER-AGENT,TencentMidasConnect*,PROXY
+- DOMAIN-SUFFIX,video.qq.com,ChinaMedia
+# > Youku
+# USER-AGENT,Youku*,PROXY
+# USER-AGENT,%E4%BC%98%E9%85%B7*,PROXY
+- DOMAIN-SUFFIX,soku.com,ChinaMedia
+- DOMAIN-SUFFIX,youku.com,ChinaMedia
+- DOMAIN-SUFFIX,ykimg.com,ChinaMedia
 # (DNS Cache Pollution Protection)
 # > Google
 - DOMAIN-SUFFIX,appspot.com,PROXY
