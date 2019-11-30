@@ -396,18 +396,20 @@ Rule:
 - DOMAIN-SUFFIX,googlevideo.com,GlobalMedia
 - DOMAIN-SUFFIX,youtube.com,GlobalMedia
 - DOMAIN,youtubei.googleapis.com,GlobalMedia
-
-# (HKMTMedia)
+# (iQiyiTW)
 # > 愛奇藝台灣站
-- DOMAIN-SUFFIX,iqiyi.com,HKMTMedia
-- DOMAIN-SUFFIX,71.am,HKMTMedia
-
-# (Bilibili)
-# > bilibili番剧验证
-- DOMAIN-SUFFIX,bilibili.com,Bilibili
-- DOMAIN,upos-hz-mirrorakam.akamaized.net,Bilibili
-- IP-CIDR,45.64.20.0/22,Bilibili,no-resolve
-
+- DOMAIN-SUFFIX,iqiyi.com,iQiyiTW
+- DOMAIN-SUFFIX,71.am,iQiyiTW
+# (Bilibili&AcFun)
+# > Bilibili番剧地区验证
+- DOMAIN-SUFFIX,bilibili.com,Bilibili&AcFun
+- DOMAIN,upos-hz-mirrorakam.akamaized.net,Bilibili&AcFun
+- IP-CIDR,45.64.20.0/22,Bilibili&AcFun,no-resolve
+# > AcFun番剧地区验证
+# USER-AGENT,AcFun*,PROXY
+- DOMAIN-SUFFIX,acfun.cn,PROXY
+- DOMAIN-SUFFIX,acfun.com,PROXY
+- DOMAIN-SUFFIX,aixifan.com,PROXY
 # (DNS Cache Pollution Protection)
 # > Google
 - DOMAIN-SUFFIX,appspot.com,PROXY
