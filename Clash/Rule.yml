@@ -406,7 +406,6 @@ Rule:
 # > bilibili番剧验证
 - DOMAIN-SUFFIX,bilibili.com,Bilibili
 - DOMAIN,upos-hz-mirrorakam.akamaized.net,Bilibili
-- DOMAIN-SUFFIX,biligame.com,Bilibili
 - IP-CIDR,45.64.20.0/22,Bilibili,no-resolve
 
 # (DNS Cache Pollution Protection)
@@ -994,6 +993,7 @@ Rule:
 - DOMAIN-SUFFIX,biliapi.net,DIRECT
 - DOMAIN-SUFFIX,bilibili.com,DIRECT
 - DOMAIN-SUFFIX,bilibili.tv,DIRECT
+- DOMAIN-SUFFIX,biligame.com,DIRECT
 - DOMAIN-SUFFIX,hdslb.com,DIRECT
 - DOMAIN-SUFFIX,hdslb.com,DIRECT
 # > Blizzard
