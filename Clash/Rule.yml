@@ -349,6 +349,16 @@ Rule:
 - DOMAIN-SUFFIX,nflximg.net,GlobalMedia
 - DOMAIN-SUFFIX,nflxso.net,GlobalMedia
 - DOMAIN-SUFFIX,nflxvideo.net,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest0.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest1.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest2.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest3.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest4.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest5.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest6.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest7.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest8.com,GlobalMedia
+- DOMAIN-SUFFIX,netflixdnstest9.com,GlobalMedia
 # > niconico
 # USER-AGENT,Niconico*,GlobalMedia
 - DOMAIN-SUFFIX,dmc.nico,GlobalMedia
@@ -981,6 +991,9 @@ Rule:
 - DOMAIN-SUFFIX,bilibili.com,DIRECT
 - DOMAIN-SUFFIX,bilibili.tv,DIRECT
 - DOMAIN-SUFFIX,hdslb.com,DIRECT
+- DOMAIN-SUFFIX,hdslb.com,DIRECT
+- DOMAIN-SUFFIX,biligame.com,HKMTMedia
+- IP-CIDR,45.64.20.0/22,HKMTMedia,no-resolve
 # > Blizzard
 - DOMAIN-SUFFIX,blizzard.com,DIRECT
 - DOMAIN-SUFFIX,battle.net,DIRECT
